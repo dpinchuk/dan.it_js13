@@ -1,0 +1,38 @@
+body {
+    width: 220px;
+}
+
+body div {
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+}
+
+.bomb {
+    background-color: #ff0000;
+    color: #ff0000;
+    border-radius: 4px;
+}
+
+.close {
+    background-color: #ffffff;
+    color: white;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.flag {
+    background-color: #008000;
+    color: #008000
+}
+
+#text {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
